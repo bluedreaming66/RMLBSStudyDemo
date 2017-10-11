@@ -15,6 +15,25 @@
 		2884DFD11F77B10400142E4E /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 2884DFCF1F77B10400142E4E /* LaunchScreen.storyboard */; };
 		2884DFDC1F77B10400142E4E /* BSBDJDemoTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 2884DFDB1F77B10400142E4E /* BSBDJDemoTests.m */; };
 		2884DFE71F77B10400142E4E /* BSBDJDemoUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 2884DFE61F77B10400142E4E /* BSBDJDemoUITests.m */; };
+		28AE59BA1F8E60460064B261 /* RMLEssenceViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 28AE59881F8E60460064B261 /* RMLEssenceViewController.m */; };
+		28AE59BB1F8E60460064B261 /* RMLCommendViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 28AE598E1F8E60460064B261 /* RMLCommendViewController.m */; };
+		28AE59BC1F8E60460064B261 /* RMLCommendViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 28AE598F1F8E60460064B261 /* RMLCommendViewController.xib */; };
+		28AE59BD1F8E60460064B261 /* RMLFriendTrendsViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 28AE59911F8E60460064B261 /* RMLFriendTrendsViewController.m */; };
+		28AE59BE1F8E60460064B261 /* RMLFriendTrendsViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 28AE59921F8E60460064B261 /* RMLFriendTrendsViewController.xib */; };
+		28AE59BF1F8E60460064B261 /* RMLListModel.m in Sources */ = {isa = PBXBuildFile; fileRef = 28AE59951F8E60460064B261 /* RMLListModel.m */; };
+		28AE59C01F8E60460064B261 /* RMLUserModel.m in Sources */ = {isa = PBXBuildFile; fileRef = 28AE59971F8E60460064B261 /* RMLUserModel.m */; };
+		28AE59C11F8E60460064B261 /* RMLListTableViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 28AE599A1F8E60460064B261 /* RMLListTableViewCell.m */; };
+		28AE59C21F8E60460064B261 /* RMLListTableViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 28AE599B1F8E60460064B261 /* RMLListTableViewCell.xib */; };
+		28AE59C31F8E60460064B261 /* RMLUsersTableViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 28AE599D1F8E60460064B261 /* RMLUsersTableViewCell.m */; };
+		28AE59C41F8E60460064B261 /* RMLUsersTableViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 28AE599E1F8E60460064B261 /* RMLUsersTableViewCell.xib */; };
+		28AE59C51F8E60460064B261 /* RMLMeViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 28AE59A21F8E60460064B261 /* RMLMeViewController.m */; };
+		28AE59C61F8E60460064B261 /* RMLNewViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 28AE59A81F8E60460064B261 /* RMLNewViewController.m */; };
+		28AE59C71F8E60460064B261 /* UIBarButtonItem+RMLExtension.m in Sources */ = {isa = PBXBuildFile; fileRef = 28AE59AE1F8E60460064B261 /* UIBarButtonItem+RMLExtension.m */; };
+		28AE59C81F8E60460064B261 /* UIView+RMLFrame.m in Sources */ = {isa = PBXBuildFile; fileRef = 28AE59B01F8E60460064B261 /* UIView+RMLFrame.m */; };
+		28AE59C91F8E60460064B261 /* RMLNavigationViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 28AE59B31F8E60460064B261 /* RMLNavigationViewController.m */; };
+		28AE59CA1F8E60460064B261 /* RMLTabBarViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 28AE59B51F8E60460064B261 /* RMLTabBarViewController.m */; };
+		28AE59CB1F8E60460064B261 /* RMLTabBar.m in Sources */ = {isa = PBXBuildFile; fileRef = 28AE59B91F8E60460064B261 /* RMLTabBar.m */; };
+		68710F4B3466A2D03F8011A0 /* libPods-BSBDJDemo.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 5665ABAC10F0C70F209DBD2B /* libPods-BSBDJDemo.a */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -51,6 +70,42 @@
 		2884DFE21F77B10400142E4E /* BSBDJDemoUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = BSBDJDemoUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		2884DFE61F77B10400142E4E /* BSBDJDemoUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = BSBDJDemoUITests.m; sourceTree = "<group>"; };
 		2884DFE81F77B10400142E4E /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		28AE59871F8E60460064B261 /* RMLEssenceViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RMLEssenceViewController.h; sourceTree = "<group>"; };
+		28AE59881F8E60460064B261 /* RMLEssenceViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RMLEssenceViewController.m; sourceTree = "<group>"; };
+		28AE598D1F8E60460064B261 /* RMLCommendViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RMLCommendViewController.h; sourceTree = "<group>"; };
+		28AE598E1F8E60460064B261 /* RMLCommendViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RMLCommendViewController.m; sourceTree = "<group>"; };
+		28AE598F1F8E60460064B261 /* RMLCommendViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = RMLCommendViewController.xib; sourceTree = "<group>"; };
+		28AE59901F8E60460064B261 /* RMLFriendTrendsViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RMLFriendTrendsViewController.h; sourceTree = "<group>"; };
+		28AE59911F8E60460064B261 /* RMLFriendTrendsViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RMLFriendTrendsViewController.m; sourceTree = "<group>"; };
+		28AE59921F8E60460064B261 /* RMLFriendTrendsViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = RMLFriendTrendsViewController.xib; sourceTree = "<group>"; };
+		28AE59941F8E60460064B261 /* RMLListModel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RMLListModel.h; sourceTree = "<group>"; };
+		28AE59951F8E60460064B261 /* RMLListModel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RMLListModel.m; sourceTree = "<group>"; };
+		28AE59961F8E60460064B261 /* RMLUserModel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RMLUserModel.h; sourceTree = "<group>"; };
+		28AE59971F8E60460064B261 /* RMLUserModel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RMLUserModel.m; sourceTree = "<group>"; };
+		28AE59991F8E60460064B261 /* RMLListTableViewCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RMLListTableViewCell.h; sourceTree = "<group>"; };
+		28AE599A1F8E60460064B261 /* RMLListTableViewCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RMLListTableViewCell.m; sourceTree = "<group>"; };
+		28AE599B1F8E60460064B261 /* RMLListTableViewCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = RMLListTableViewCell.xib; sourceTree = "<group>"; };
+		28AE599C1F8E60460064B261 /* RMLUsersTableViewCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RMLUsersTableViewCell.h; sourceTree = "<group>"; };
+		28AE599D1F8E60460064B261 /* RMLUsersTableViewCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RMLUsersTableViewCell.m; sourceTree = "<group>"; };
+		28AE599E1F8E60460064B261 /* RMLUsersTableViewCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = RMLUsersTableViewCell.xib; sourceTree = "<group>"; };
+		28AE59A11F8E60460064B261 /* RMLMeViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RMLMeViewController.h; sourceTree = "<group>"; };
+		28AE59A21F8E60460064B261 /* RMLMeViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RMLMeViewController.m; sourceTree = "<group>"; };
+		28AE59A71F8E60460064B261 /* RMLNewViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RMLNewViewController.h; sourceTree = "<group>"; };
+		28AE59A81F8E60460064B261 /* RMLNewViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RMLNewViewController.m; sourceTree = "<group>"; };
+		28AE59AD1F8E60460064B261 /* UIBarButtonItem+RMLExtension.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIBarButtonItem+RMLExtension.h"; sourceTree = "<group>"; };
+		28AE59AE1F8E60460064B261 /* UIBarButtonItem+RMLExtension.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIBarButtonItem+RMLExtension.m"; sourceTree = "<group>"; };
+		28AE59AF1F8E60460064B261 /* UIView+RMLFrame.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIView+RMLFrame.h"; sourceTree = "<group>"; };
+		28AE59B01F8E60460064B261 /* UIView+RMLFrame.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIView+RMLFrame.m"; sourceTree = "<group>"; };
+		28AE59B21F8E60460064B261 /* RMLNavigationViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RMLNavigationViewController.h; sourceTree = "<group>"; };
+		28AE59B31F8E60460064B261 /* RMLNavigationViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RMLNavigationViewController.m; sourceTree = "<group>"; };
+		28AE59B41F8E60460064B261 /* RMLTabBarViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RMLTabBarViewController.h; sourceTree = "<group>"; };
+		28AE59B51F8E60460064B261 /* RMLTabBarViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RMLTabBarViewController.m; sourceTree = "<group>"; };
+		28AE59B61F8E60460064B261 /* PrefixHeader.pch */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PrefixHeader.pch; sourceTree = "<group>"; };
+		28AE59B81F8E60460064B261 /* RMLTabBar.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RMLTabBar.h; sourceTree = "<group>"; };
+		28AE59B91F8E60460064B261 /* RMLTabBar.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RMLTabBar.m; sourceTree = "<group>"; };
+		371A5B0B90791A798489194A /* Pods-BSBDJDemo.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-BSBDJDemo.debug.xcconfig"; path = "Pods/Target Support Files/Pods-BSBDJDemo/Pods-BSBDJDemo.debug.xcconfig"; sourceTree = "<group>"; };
+		5665ABAC10F0C70F209DBD2B /* libPods-BSBDJDemo.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-BSBDJDemo.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		63573F4AD18F7600B09378E8 /* Pods-BSBDJDemo.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-BSBDJDemo.release.xcconfig"; path = "Pods/Target Support Files/Pods-BSBDJDemo/Pods-BSBDJDemo.release.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -58,6 +113,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				68710F4B3466A2D03F8011A0 /* libPods-BSBDJDemo.a in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -85,6 +141,8 @@
 				2884DFDA1F77B10400142E4E /* BSBDJDemoTests */,
 				2884DFE51F77B10400142E4E /* BSBDJDemoUITests */,
 				2884DFBF1F77B10400142E4E /* Products */,
+				91AD346A995A290C720DE595 /* Pods */,
+				D7B6F098ACB145C4850A8D60 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -101,6 +159,7 @@
 		2884DFC01F77B10400142E4E /* BSBDJDemo */ = {
 			isa = PBXGroup;
 			children = (
+				28AE59841F8E60460064B261 /* Classes */,
 				2884DFC41F77B10400142E4E /* AppDelegate.h */,
 				2884DFC51F77B10400142E4E /* AppDelegate.m */,
 				2884DFC71F77B10400142E4E /* ViewController.h */,
@@ -140,6 +199,223 @@
 			path = BSBDJDemoUITests;
 			sourceTree = "<group>";
 		};
+		28AE59841F8E60460064B261 /* Classes */ = {
+			isa = PBXGroup;
+			children = (
+				28AE59851F8E60460064B261 /* Essence-精华 */,
+				28AE598B1F8E60460064B261 /* FriendTrends-关注 */,
+				28AE599F1F8E60460064B261 /* Me-我 */,
+				28AE59A51F8E60460064B261 /* New-新帖 */,
+				28AE59AB1F8E60460064B261 /* Others */,
+			);
+			path = Classes;
+			sourceTree = "<group>";
+		};
+		28AE59851F8E60460064B261 /* Essence-精华 */ = {
+			isa = PBXGroup;
+			children = (
+				28AE59861F8E60460064B261 /* Controllers */,
+				28AE59891F8E60460064B261 /* Models */,
+				28AE598A1F8E60460064B261 /* Views */,
+			);
+			path = "Essence-精华";
+			sourceTree = "<group>";
+		};
+		28AE59861F8E60460064B261 /* Controllers */ = {
+			isa = PBXGroup;
+			children = (
+				28AE59871F8E60460064B261 /* RMLEssenceViewController.h */,
+				28AE59881F8E60460064B261 /* RMLEssenceViewController.m */,
+			);
+			path = Controllers;
+			sourceTree = "<group>";
+		};
+		28AE59891F8E60460064B261 /* Models */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Models;
+			sourceTree = "<group>";
+		};
+		28AE598A1F8E60460064B261 /* Views */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
+		28AE598B1F8E60460064B261 /* FriendTrends-关注 */ = {
+			isa = PBXGroup;
+			children = (
+				28AE598C1F8E60460064B261 /* Controllers */,
+				28AE59931F8E60460064B261 /* Models */,
+				28AE59981F8E60460064B261 /* Views */,
+			);
+			path = "FriendTrends-关注";
+			sourceTree = "<group>";
+		};
+		28AE598C1F8E60460064B261 /* Controllers */ = {
+			isa = PBXGroup;
+			children = (
+				28AE598D1F8E60460064B261 /* RMLCommendViewController.h */,
+				28AE598E1F8E60460064B261 /* RMLCommendViewController.m */,
+				28AE598F1F8E60460064B261 /* RMLCommendViewController.xib */,
+				28AE59901F8E60460064B261 /* RMLFriendTrendsViewController.h */,
+				28AE59911F8E60460064B261 /* RMLFriendTrendsViewController.m */,
+				28AE59921F8E60460064B261 /* RMLFriendTrendsViewController.xib */,
+			);
+			path = Controllers;
+			sourceTree = "<group>";
+		};
+		28AE59931F8E60460064B261 /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				28AE59941F8E60460064B261 /* RMLListModel.h */,
+				28AE59951F8E60460064B261 /* RMLListModel.m */,
+				28AE59961F8E60460064B261 /* RMLUserModel.h */,
+				28AE59971F8E60460064B261 /* RMLUserModel.m */,
+			);
+			path = Models;
+			sourceTree = "<group>";
+		};
+		28AE59981F8E60460064B261 /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				28AE59991F8E60460064B261 /* RMLListTableViewCell.h */,
+				28AE599A1F8E60460064B261 /* RMLListTableViewCell.m */,
+				28AE599B1F8E60460064B261 /* RMLListTableViewCell.xib */,
+				28AE599C1F8E60460064B261 /* RMLUsersTableViewCell.h */,
+				28AE599D1F8E60460064B261 /* RMLUsersTableViewCell.m */,
+				28AE599E1F8E60460064B261 /* RMLUsersTableViewCell.xib */,
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
+		28AE599F1F8E60460064B261 /* Me-我 */ = {
+			isa = PBXGroup;
+			children = (
+				28AE59A01F8E60460064B261 /* Controllers */,
+				28AE59A31F8E60460064B261 /* Models */,
+				28AE59A41F8E60460064B261 /* Views */,
+			);
+			path = "Me-我";
+			sourceTree = "<group>";
+		};
+		28AE59A01F8E60460064B261 /* Controllers */ = {
+			isa = PBXGroup;
+			children = (
+				28AE59A11F8E60460064B261 /* RMLMeViewController.h */,
+				28AE59A21F8E60460064B261 /* RMLMeViewController.m */,
+			);
+			path = Controllers;
+			sourceTree = "<group>";
+		};
+		28AE59A31F8E60460064B261 /* Models */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Models;
+			sourceTree = "<group>";
+		};
+		28AE59A41F8E60460064B261 /* Views */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
+		28AE59A51F8E60460064B261 /* New-新帖 */ = {
+			isa = PBXGroup;
+			children = (
+				28AE59A61F8E60460064B261 /* Controllers */,
+				28AE59A91F8E60460064B261 /* Models */,
+				28AE59AA1F8E60460064B261 /* Views */,
+			);
+			path = "New-新帖";
+			sourceTree = "<group>";
+		};
+		28AE59A61F8E60460064B261 /* Controllers */ = {
+			isa = PBXGroup;
+			children = (
+				28AE59A71F8E60460064B261 /* RMLNewViewController.h */,
+				28AE59A81F8E60460064B261 /* RMLNewViewController.m */,
+			);
+			path = Controllers;
+			sourceTree = "<group>";
+		};
+		28AE59A91F8E60460064B261 /* Models */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Models;
+			sourceTree = "<group>";
+		};
+		28AE59AA1F8E60460064B261 /* Views */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
+		28AE59AB1F8E60460064B261 /* Others */ = {
+			isa = PBXGroup;
+			children = (
+				28AE59AC1F8E60460064B261 /* Category */,
+				28AE59B11F8E60460064B261 /* Controllers */,
+				28AE59B61F8E60460064B261 /* PrefixHeader.pch */,
+				28AE59B71F8E60460064B261 /* Views */,
+			);
+			path = Others;
+			sourceTree = "<group>";
+		};
+		28AE59AC1F8E60460064B261 /* Category */ = {
+			isa = PBXGroup;
+			children = (
+				28AE59AD1F8E60460064B261 /* UIBarButtonItem+RMLExtension.h */,
+				28AE59AE1F8E60460064B261 /* UIBarButtonItem+RMLExtension.m */,
+				28AE59AF1F8E60460064B261 /* UIView+RMLFrame.h */,
+				28AE59B01F8E60460064B261 /* UIView+RMLFrame.m */,
+			);
+			path = Category;
+			sourceTree = "<group>";
+		};
+		28AE59B11F8E60460064B261 /* Controllers */ = {
+			isa = PBXGroup;
+			children = (
+				28AE59B21F8E60460064B261 /* RMLNavigationViewController.h */,
+				28AE59B31F8E60460064B261 /* RMLNavigationViewController.m */,
+				28AE59B41F8E60460064B261 /* RMLTabBarViewController.h */,
+				28AE59B51F8E60460064B261 /* RMLTabBarViewController.m */,
+			);
+			path = Controllers;
+			sourceTree = "<group>";
+		};
+		28AE59B71F8E60460064B261 /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				28AE59B81F8E60460064B261 /* RMLTabBar.h */,
+				28AE59B91F8E60460064B261 /* RMLTabBar.m */,
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
+		91AD346A995A290C720DE595 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				371A5B0B90791A798489194A /* Pods-BSBDJDemo.debug.xcconfig */,
+				63573F4AD18F7600B09378E8 /* Pods-BSBDJDemo.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		D7B6F098ACB145C4850A8D60 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				5665ABAC10F0C70F209DBD2B /* libPods-BSBDJDemo.a */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -147,9 +423,12 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 2884DFEB1F77B10400142E4E /* Build configuration list for PBXNativeTarget "BSBDJDemo" */;
 			buildPhases = (
+				648B24289EE77908C911DEFB /* [CP] Check Pods Manifest.lock */,
 				2884DFBA1F77B10400142E4E /* Sources */,
 				2884DFBB1F77B10400142E4E /* Frameworks */,
 				2884DFBC1F77B10400142E4E /* Resources */,
+				4DEA1A06772E4A000A14BAC5 /* [CP] Embed Pods Frameworks */,
+				D54796320EEAB8DD37525F84 /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -247,7 +526,11 @@
 			buildActionMask = 2147483647;
 			files = (
 				2884DFD11F77B10400142E4E /* LaunchScreen.storyboard in Resources */,
+				28AE59C21F8E60460064B261 /* RMLListTableViewCell.xib in Resources */,
 				2884DFCE1F77B10400142E4E /* Assets.xcassets in Resources */,
+				28AE59C41F8E60460064B261 /* RMLUsersTableViewCell.xib in Resources */,
+				28AE59BC1F8E60460064B261 /* RMLCommendViewController.xib in Resources */,
+				28AE59BE1F8E60460064B261 /* RMLFriendTrendsViewController.xib in Resources */,
 				2884DFCC1F77B10400142E4E /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -268,13 +551,82 @@
 		};
 /* End PBXResourcesBuildPhase section */
 
+/* Begin PBXShellScriptBuildPhase section */
+		4DEA1A06772E4A000A14BAC5 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-BSBDJDemo/Pods-BSBDJDemo-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		648B24289EE77908C911DEFB /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-BSBDJDemo-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		D54796320EEAB8DD37525F84 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${SRCROOT}/Pods/Target Support Files/Pods-BSBDJDemo/Pods-BSBDJDemo-resources.sh",
+				"${PODS_ROOT}/MJRefresh/MJRefresh/MJRefresh.bundle",
+				"${PODS_ROOT}/SVProgressHUD/SVProgressHUD/SVProgressHUD.bundle",
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+				"${TARGET_BUILD_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-BSBDJDemo/Pods-BSBDJDemo-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
 /* Begin PBXSourcesBuildPhase section */
 		2884DFBA1F77B10400142E4E /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
 				2884DFC91F77B10400142E4E /* ViewController.m in Sources */,
+				28AE59C61F8E60460064B261 /* RMLNewViewController.m in Sources */,
+				28AE59C81F8E60460064B261 /* UIView+RMLFrame.m in Sources */,
+				28AE59BB1F8E60460064B261 /* RMLCommendViewController.m in Sources */,
+				28AE59C11F8E60460064B261 /* RMLListTableViewCell.m in Sources */,
+				28AE59BF1F8E60460064B261 /* RMLListModel.m in Sources */,
+				28AE59C91F8E60460064B261 /* RMLNavigationViewController.m in Sources */,
+				28AE59CB1F8E60460064B261 /* RMLTabBar.m in Sources */,
+				28AE59BA1F8E60460064B261 /* RMLEssenceViewController.m in Sources */,
+				28AE59C01F8E60460064B261 /* RMLUserModel.m in Sources */,
 				2884DFC61F77B10400142E4E /* AppDelegate.m in Sources */,
+				28AE59CA1F8E60460064B261 /* RMLTabBarViewController.m in Sources */,
+				28AE59C51F8E60460064B261 /* RMLMeViewController.m in Sources */,
+				28AE59BD1F8E60460064B261 /* RMLFriendTrendsViewController.m in Sources */,
+				28AE59C71F8E60460064B261 /* UIBarButtonItem+RMLExtension.m in Sources */,
+				28AE59C31F8E60460064B261 /* RMLUsersTableViewCell.m in Sources */,
 				2884DFC31F77B10400142E4E /* main.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -424,8 +776,10 @@
 		};
 		2884DFEC1F77B10400142E4E /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 371A5B0B90791A798489194A /* Pods-BSBDJDemo.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				GCC_PREFIX_HEADER = BSBDJDemo/Classes/Others/PrefixHeader.pch;
 				INFOPLIST_FILE = BSBDJDemo/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = "---ddd.BSBDJDemo";
@@ -435,8 +789,10 @@
 		};
 		2884DFED1F77B10400142E4E /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 63573F4AD18F7600B09378E8 /* Pods-BSBDJDemo.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				GCC_PREFIX_HEADER = BSBDJDemo/Classes/Others/PrefixHeader.pch;
 				INFOPLIST_FILE = BSBDJDemo/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = "---ddd.BSBDJDemo";
@@ -509,6 +865,7 @@
 				2884DFED1F77B10400142E4E /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		2884DFEE1F77B10400142E4E /* Build configuration list for PBXNativeTarget "BSBDJDemoTests" */ = {
 			isa = XCConfigurationList;
@@ -517,6 +874,7 @@
 				2884DFF01F77B10400142E4E /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		2884DFF11F77B10400142E4E /* Build configuration list for PBXNativeTarget "BSBDJDemoUITests" */ = {
 			isa = XCConfigurationList;
@@ -525,6 +883,7 @@
 				2884DFF31F77B10400142E4E /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
